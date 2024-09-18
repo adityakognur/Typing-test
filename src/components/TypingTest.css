@@ -1,0 +1,167 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container Styles */
+.typing-test-container {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100vw;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+.typing-test-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.remaining-words{
+  color:#333;
+}
+/* Select Dropdown */
+.select-container {
+  margin-bottom: 15px;
+}
+
+.select-container label {
+  font-size: 1.1rem;
+  color: #444;
+  margin-right: 10px;
+}
+
+.select-items {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.start-button-container {
+  margin: 20px 0;
+}
+
+.start-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.start-button:disabled {
+  background-color: #a5d6a7;
+}
+
+.start-button:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+/* Countdown Styles */
+.countdown {
+  font-size: 3rem;
+  color: #ff5252;
+  margin-bottom: 20px;
+}
+
+/* Timer and Word Count */
+#timer, #word-count {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Text Area */
+#typing-area {
+  width: 60vw;
+  height: 100px;
+  font-size: 1.1rem;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  margin-top: 10px;
+}
+
+.text-to-type {
+  margin: 20px 0;
+}
+
+.highlighted-word {
+  font-weight: bold;
+  color: #ff5722;
+}
+
+/* Modal Popup */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  position: relative;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.modal-content p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.modal-content button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #333;
+}
+
+.Restart-button{
+  background-color: #45a049;
+}
+
+.Restart-button:hover{
+  border: 1px solid rgb(0, 0, 0);
+}
